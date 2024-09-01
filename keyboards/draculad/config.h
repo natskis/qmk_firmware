@@ -25,3 +25,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define EE_HANDS
 
 #define LAYER_STATE_8BIT
+
+// #define ENCODER_A_PINS { B2 }
+// #define ENCODER_B_PINS { B3 }
+#define ENCODER_A_PINS_RIGHT { B2, B6 }
+// #define ENCODER_B_PINS_RIGHT { B2, B6 }
+#define ENCODER_RESOLUTIONS_RIGHT { 2, 4 }
+
+                    // {"pin_a": "B2", "pin_b": "B6", "resolution": 4},
+                    // {"pin_a": "B4", "pin_b": "B5", "resolution": 1}
